@@ -15,4 +15,10 @@
     <ProjectReference Include="..\Ascend.Infrastructure\Ascend.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Entities/" />
+    <Folder Include="Enums/" />
+    <Folder Include="ValueObjects/" />
+  </ItemGroup>
+
 </Project>
