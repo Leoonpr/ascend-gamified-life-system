@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Ascend.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Ascend.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Ascend.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ascend.Application.dll": {}
+        }
+      },
+      "Ascend.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Ascend.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ascend.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ascend.Application/1.0.0": {
+      "type": "project",
+      "path": "../Ascend.Application/Ascend.Application.csproj",
+      "msbuildProject": "../Ascend.Application/Ascend.Application.csproj"
+    },
+    "Ascend.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Ascend.Domain/Ascend.Domain.csproj",
+      "msbuildProject": "../Ascend.Domain/Ascend.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Ascend.Application >= 1.0.0",
+      "Ascend.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/user/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/user/projects/pp/ascend-gamified-life-system/backend/Ascend.Infrastructure/Ascend.Infrastructure.csproj",
+      "projectName": "Ascend.Infrastructure",
+      "projectPath": "/home/user/projects/pp/ascend-gamified-life-system/backend/Ascend.Infrastructure/Ascend.Infrastructure.csproj",
+      "packagesPath": "/home/user/.nuget/packages/",
+      "outputPath": "/home/user/projects/pp/ascend-gamified-life-system/backend/Ascend.Infrastructure/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/user/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "/home/user/projects/pp/ascend-gamified-life-system/backend/Ascend.Application/Ascend.Application.csproj": {
+              "projectPath": "/home/user/projects/pp/ascend-gamified-life-system/backend/Ascend.Application/Ascend.Application.csproj"
+            },
+            "/home/user/projects/pp/ascend-gamified-life-system/backend/Ascend.Domain/Ascend.Domain.csproj": {
+              "projectPath": "/home/user/projects/pp/ascend-gamified-life-system/backend/Ascend.Domain/Ascend.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
